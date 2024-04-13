@@ -45,11 +45,7 @@ This repository contains distribution files for FPGA implementations written by 
 
 Please consider supporting these and future projects by joining any of the following Patreon or Ko-Fi accounts:
 
-[***atrac17's Patreon***](https://www.patreon.com/atrac17)
-
-[***Darren's Ko-fi***](https://ko-fi.com/darreno)
-<br>
-[***Darren's Patreon***](https://patreon.com/darreno)
+[***CoinOp Collection Patreon***](https://www.patreon.com/atrac17)
 
 # Licensing
 

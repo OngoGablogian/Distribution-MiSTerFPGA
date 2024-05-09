@@ -64,6 +64,10 @@
         <!-- audiocpu - starts at 0x200000 -->
         <part name="o15-13.rom" crc="e7b72383"/>
 
+        <patch offset="0x00000186">60 10</patch>
+        <patch offset="0x00000764">4E 71</patch>
+        <patch offset="0x00000776">4E 71</patch>
+
         <!-- Total 0x208000 bytes - 2080 kBytes -->
     </rom>
 </misterromdescription>

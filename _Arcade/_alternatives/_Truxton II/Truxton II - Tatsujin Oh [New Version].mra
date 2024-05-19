@@ -12,23 +12,23 @@
 -->
 
 <misterromdescription>
+    <about author="atrac17" webpage="https://coinopcollection.org" source="https://github.com/Coin-OpCollection" twitter="@_atrac17"/>
     <name>Truxton II / Tatsujin Oh</name>
-    <setname>truxton2n</setname>
+    <setname>truxton2</setname>
     <rbf>truxton2</rbf>
-    <mameversion>arcade_offset</mameversion>
+    <mameversion>0265</mameversion>
     <year>1992</year>
     <manufacturer>Toaplan</manufacturer>
     <players>2</players>
     <joystick>8-way</joystick>
-    <rotation>vertical (cw)</rotation>
+    <rotation>Vertical (CW)</rotation>
     <region>Japan</region>
     <platform>Toaplan 2</platform>
     <category>Shoot'em up</category>
     <catver>Shooter / Flying Vertical</catver>
     <mraauthor>atrac17</mraauthor>
     <rom index="0" zip="truxton2.zip" md5="None" address="0x30000000">
-        <!-- mapper for game 00 - default / truxton2 -->
-        <part>00</part>
+        <part>01</part>
         <!-- maincpu - starts at 0x0 -->
         <part name="tp024_1.bin" crc="f5cfe6ee"/>
         <!-- gp9001_0 - starts at 0x80000 -->
@@ -185,11 +185,10 @@
         <patch offset="0x7f772">10 04 4a 4e f9</patch>
         <patch offset="0x7f778">02 35 02</patch>
     </rom>
-    <!-- Vertical game -->
     <rom index="1">
         <part>01</part>
     </rom>
-    <switches page_id="1" page_name="Switches" base="8" default="00,00,F0">
+    <switches default="00,00,F0">
         <!-- DSWA -->
         <dip name="Rapid Fire" bits="0" ids="On,Off"/>
         <dip name="Screen Flip" bits="1" ids="Normal,Invert"/>
@@ -204,7 +203,7 @@
         <dip name="Invulnerability" bits="14" ids="Off,On"/>
         <dip name="Continue Play" bits="15" ids="Yes,No"/>
         <!-- JMPR -->
-        <dip name="Region" bits="16,19" ids="JPN,USA,EU,HK,KOR,TWN,SEA,USA (ROMSTAR),HK (Honest Trading),KOR (JC Trading),USA (Fabtek),No Use,No Use,No Use,No Use,JPN (Taito Corp.)"/>
+        <dip name="Region" bits="16,19" ids="JPN,USA,EU,HK,KOR,TWN,SEA,USA (ROMSTAR),HK (Honest Trading),KOR (JC Trading),USA (Fabtek),-,-,-,-,JPN (Taito Corp.)"/>
     </switches>
     <buttons names="Shot,Bomb,Kill Player,Fast Scroll,Start,Coin,Pause" default="Y,X,B,A,R,L,Start" count="4"/>
 </misterromdescription>
